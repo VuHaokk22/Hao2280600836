@@ -1,4 +1,12 @@
-D:\my work\J2EE_CT2\small project\src\main\java\com\example\bookmanager\BookManagerApplication.java
-D:\my work\J2EE_CT2\small project\src\main\java\com\example\bookmanager\repository\BookRepository.java
-D:\my work\J2EE_CT2\small project\src\main\java\com\example\bookmanager\controller\BookController.java
-D:\my work\J2EE_CT2\small project\src\main\java\com\example\bookmanager\model\Book.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\BookManagerApplication.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\repository\RoleRepository.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\model\Role.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\config\DataInitializer.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\controller\LoginController.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\model\User.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\repository\UserRepository.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\config\SecurityConfig.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\service\CustomUserDetailsService.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\controller\BookController.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\model\Book.java
+C:\Users\VU HAO\Downloads\baituan6\src\main\java\com\example\bookmanager\repository\BookRepository.java

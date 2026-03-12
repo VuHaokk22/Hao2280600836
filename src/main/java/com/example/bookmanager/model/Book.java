@@ -4,6 +4,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
+import jakarta.persistence.Column;
 
 @Entity
 public class Book {
@@ -14,6 +16,10 @@ public class Book {
     private String title;
     private String author;
     private double price;
+    private String imageUrl;
+    @Lob
+    @Column(length = 16777215)
+    private String imageData;
 
     public Book() {
     }
@@ -22,6 +28,8 @@ public class Book {
         this.title = title;
         this.author = author;
         this.price = price;
+        this.imageUrl = "";
+        this.imageData = "";
     }
 
     public Long getId() {
@@ -54,5 +62,21 @@ public class Book {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public String getImageData() {
+        return imageData;
+    }
+
+    public void setImageData(String imageData) {
+        this.imageData = imageData;
     }
 }

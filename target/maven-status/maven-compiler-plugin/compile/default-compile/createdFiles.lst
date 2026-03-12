@@ -1,4 +1,12 @@
+com\example\bookmanager\repository\UserRepository.class
 com\example\bookmanager\BookManagerApplication.class
 com\example\bookmanager\repository\BookRepository.class
-com\example\bookmanager\model\Book.class
 com\example\bookmanager\controller\BookController.class
+com\example\bookmanager\repository\RoleRepository.class
+com\example\bookmanager\config\SecurityConfig.class
+com\example\bookmanager\model\Role.class
+com\example\bookmanager\controller\LoginController.class
+com\example\bookmanager\model\Book.class
+com\example\bookmanager\model\User.class
+com\example\bookmanager\config\DataInitializer.class
+com\example\bookmanager\service\CustomUserDetailsService.class
